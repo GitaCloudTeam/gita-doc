@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Gita',
   tagline: 'Simplify Monitoring and Troubleshooting your Kubernetes Cluster.',
-  favicon: 'img/favicon.ico',
+  favicon: 'logos/a.svg',
 
   // Set the production url of your site here
   url: 'https://doc.gita.cloud/',
@@ -66,10 +66,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Gita',
       logo: {
         alt: 'Gita Logo',
-        src: 'img/logo.svg',
+        src: 'logos/logo-gita-dark.png',
+        srcDark: 'logos/logo-gita-white.png'
       },
       items: [
         {
@@ -98,23 +98,23 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            // {
-            //   label: 'Stack Overflow',
-            //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            // },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            // {
-            //   label: 'Twitter',
-            //   href: 'https://twitter.com/docusaurus',
-            // },
-          ],
-        },
+        // {
+        //   title: 'Community',
+        //   items: [
+        //     // {
+        //     //   label: 'Stack Overflow',
+        //     //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //     // },
+        //     {
+        //       label: 'Discord',
+        //       href: 'https://discordapp.com/invite/docusaurus',
+        //     },
+        //     // {
+        //     //   label: 'Twitter',
+        //     //   href: 'https://twitter.com/docusaurus',
+        //     // },
+        //   ],
+        // },
         {
           title: 'More',
           items: [

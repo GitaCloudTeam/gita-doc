@@ -26,14 +26,18 @@ This guide explains how to use **Gita** for incident management, best practices,
 
 ### Add a Cluster
 
-1. **Access the Organization Page**:
+1. **Create a New User**
+   - Go to the [Gita registration page](https://app.gita.cloud/register) to create a new account.
+   - Fill in the required fields such as name, email, and password.
+
+2. **Access the Organization Page**:
    - Log into the Gita platform and navigate to your organization's page.
 
-2. **Add a New Cluster**:
+3. **Add a New Cluster**:
    - On the organization page, click the **"Add Cluster"** button.
    - Enter the required information about the cluster (name, access URL, etc.) and click **"Save"**.
 
-3. **Redirect to the Installation Page**:
+4. **Redirect to the Installation Page**:
    - After adding the cluster, you will be redirected to the installation page.
 
 ### Install Gita on the Cluster
