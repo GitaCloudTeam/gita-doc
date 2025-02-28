@@ -5,6 +5,7 @@ Este Procedimento Operacional Padrão (POP) tem o objetivo de orientar os usuár
 ---
 
 ## 1. Objetivo
+
 O console do cluster permite a execução de comandos administrativos e de monitoramento diretamente na plataforma, facilitando a gestão dos recursos do cluster.
 
 ---
@@ -14,17 +15,12 @@ O console do cluster permite a execução de comandos administrativos e de monit
 1. **Acesse a plataforma Gita** e faça login com suas credenciais.
 2. **Escolha a organização** onde o cluster desejado está localizado.
 3. **Selecione o cluster** ao qual deseja se conectar.
-
-   ![Selecionando o Cluster](../../static/images/image097.png)
-
+   ![Selecionando o Cluster](/images/image097.png)
 4. **No canto superior direito da interface**, localize o ícone do console (representado por um terminal).
 5. **Clique no ícone do console** para abrir uma nova aba na parte inferior da tela.
-
-   ![Abrindo o Console](../../static/images/image098.png)
-
+   ![Abrindo o Console](/images/image098.png)
 6. Agora, a aba do console estará disponível para gerenciamento do cluster.
-
-   ![Console Aberto](../../static/images/image099.png)
+   ![Console Aberto](/images/image099.png)
 
 ---
 
@@ -32,17 +28,14 @@ O console do cluster permite a execução de comandos administrativos e de monit
 
 1. **Após abrir o console**, utilize comandos para interagir com o cluster.
 2. Como por exemplo o comando para listar os pods no namespace padrão (`default`), utilize o seguinte comando:
-   
+
    ```sh
    kubectl get pods
    ```
 
-   ![Executando Comando](../../static/images/image100.png)
-
-
+   ![Executando Comando](/images/image100.png)
 3. Para sair do console, basta fechar a aba na interface clicando no **X**
-![Executando Comando](../../static/images/image101.png)
-
+   ![Executando Comando](/images/image101.png)
 
 ## 4. Observações Importantes
 
