@@ -1,20 +1,25 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Gita Usage
+
 ## Guide for Incident Management in Kubernetes
 This guide explains how to use **Gita** for incident management, best practices, and data collection in Kubernetes clusters. The process involves setting up a cluster, running an installation command in the terminal, and managing the collected incident data.
 
 ## Table of Contents
 
-1. [Introduction to Gita](#introduction-to-gita)
-2. [Setup Flow](#setup-flow)
-   - [Add a Cluster](#add-a-cluster)
-   - [Install Gita on the Cluster](#install-gita-on-the-cluster)
-3. [Best Practices](#best-practices)
-4. [Incident Collection](#incident-collection)
-5. [Accessing Collected Data](#accessing-collected-data)
+- [Gita Usage](#gita-usage)
+  - [Guide for Incident Management in Kubernetes](#guide-for-incident-management-in-kubernetes)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction to Gita](#introduction-to-gita)
+  - [Setup Flow](#setup-flow)
+    - [Add a Cluster](#add-a-cluster)
+    - [Install Gita on the Cluster](#install-gita-on-the-cluster)
+  - [Best Practices](#best-practices)
+  - [Incident Collection](#incident-collection)
+  - [Accessing Collected Data](#accessing-collected-data)
+  - [Conclusion](#conclusion)
 
 ---
 
