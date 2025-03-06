@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
 ---
-# GITA, Visão Geral
+# GITA - Visão Geral
 
 ## Sumário
 
-- [GITA, Visão Geral](#gita-visão-geral)
+- [GITA - Visão Geral](#gita---visão-geral)
   - [Sumário](#sumário)
   - [O que é o GITA?](#o-que-é-o-gita)
   - [Como é organizado?](#como-é-organizado)
