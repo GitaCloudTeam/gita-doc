@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Como se registrar no GITA?
 
 1. Acesse a [página de cadastro do GITA](https://app.gita.cloud/register)

@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Como alterar o nome de uma organização
 
 1. A partir da [página inicial](https://app.gita.cloud/home), clique em um cluster da organização que deseja alterar

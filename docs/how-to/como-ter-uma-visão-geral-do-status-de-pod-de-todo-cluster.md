@@ -1,3 +1,7 @@
+---
+sidebar_position: 13
+---
+
 # Como ter uma visão geral do status de pod de todo cluster?
 
 1. No painel principal do cluster, o usuário deverá procurar o botão "**Detalhes**" (destacado na imagem abaixo), dentro do quadro "**Pods**":

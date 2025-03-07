@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Como criar uma nova organização?
 
 1. No painel principal do GITA, clique no botão destacado abaixo, "**Criar Organização**":

@@ -1,3 +1,7 @@
+---
+sidebar_position: 15
+---
+
 # Como Sair de um Cluster?
 
 1. Acesse a interface do GITA, escolha o cluster que deseja sair.

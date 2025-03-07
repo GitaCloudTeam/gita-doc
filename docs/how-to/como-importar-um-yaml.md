@@ -1,3 +1,7 @@
+---
+sidebar_position: 18
+---
+
 # Como Importar um YAML?
 
 Este Procedimento mostra a importação de um YAML (Yet Another Markup Language) que é um formato utilizado para definir configurações e infraestrutura como código, facilitando a padronização e automação de recursos em um cluster. Importar um YAML permite aplicar configurações como deploys, serviços e permissões de forma eficiente. Durante a importação, ajustes podem ser necessários, como modificar nomes, atualizar imagens de contêiner e definir variáveis de ambiente. Isso garante que a configuração seja adequada ao ambiente antes da aplicação.

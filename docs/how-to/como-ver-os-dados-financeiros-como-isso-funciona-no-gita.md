@@ -1,6 +1,10 @@
+---
+sidebar_position: 21
+---
+
 # Como ver os dados financeiros? Como isso funciona no GITA?
 
-Cada usuário terá 15 dias gratuitos para utilizar o GITA. Após esse período, os dados financeiros podem ser acompanhados diretamente pela interface da plataforma. Para visualizar os dados financeiros: 
+Cada usuário terá 15 dias gratuitos para utilizar o GITA. Após esse período, os dados financeiros podem ser acompanhados diretamente pela interface da plataforma. Para visualizar os dados financeiros:
 
 1. Acesse a interface do GITA, escolha o cluster que deseja visualizar os dados financeiros.
     > ![image](/images/image135.png)
@@ -94,5 +98,5 @@ A aba Faturas permite que os usuários visualizem e gerenciem todas as faturas e
   - As faturas podem ser baixadas em formato PDF.
   - Para acessar detalhes, clique na linha correspondente.
 - Status de Pagamento
-  - Identifica faturas pendentes, vencidas e pagas. 
+  - Identifica faturas pendentes, vencidas e pagas.
   - Permite a regularização do pagamento diretamente pela plataforma.

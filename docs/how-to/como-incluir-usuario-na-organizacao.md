@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Como incluir um usuário do GITA na sua organização
 
 1. A partir da [página inicial](https://app.gita.cloud/home), clique em um cluster da organização que deseja alterar

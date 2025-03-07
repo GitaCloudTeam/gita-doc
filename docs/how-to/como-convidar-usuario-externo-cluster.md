@@ -1,4 +1,8 @@
-# Como convidar alguém externo para o seu cluster
+---
+sidebar_position: 11
+---
+
+# Como convidar um usuário externo para o seu cluster
 
 1. A partir da página inicial (https://app.gita.cloud/home), clique em um cluster da organização que deseja alterar
    - Alternativamente, utilize o campo de busca no canto superior esquerdo, destacado com o retângulo verde na imagem abaixo
