@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Rules": {
+    "message": "Rules",
+    "description": "The label for category Rules in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Security": {
+    "message": "Security",
+    "description": "The label for category Security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Incident": {
+    "message": "Incident",
+    "description": "The label for category Incident in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Problem": {
+    "message": "Problem",
+    "description": "The label for category Problem in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Alert": {
+    "message": "Alert",
+    "description": "The label for category Alert in sidebar tutorialSidebar"
+  }
+}

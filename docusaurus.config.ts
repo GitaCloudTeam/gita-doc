@@ -25,9 +25,18 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'pt-BR',
+    defaultLocale: 'en',
     locales: ['en', 'pt-BR'],
+    localeConfigs: {
+      pt: {
+        label: 'português'
+      },
+      en: {
+        label: 'english'
+      }
+    }
   },
+
 
   presets: [
     [
@@ -89,6 +98,10 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        }
       ],
     },
     footer: {
