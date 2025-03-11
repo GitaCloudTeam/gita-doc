@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Translate from '@docusaurus/Translate';
 
 type FeatureItem = {
   title: string;
@@ -8,40 +9,10 @@ type FeatureItem = {
   description: JSX.Element;
 };
 
-const FeatureList: FeatureItem[] = [
-  {
-    title: 'Simplify Monitoring and Problem Resolution',
-    // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-       With Gita, you get a powerful solution for incident management, data collection, and real-time health monitoring, all in an intuitive interface. Discover the key features that make Gita indispensable for your Kubernetes infrastructure.
-      </>
-    ),
-  },
-  {
-    title: 'Automatic Data Collection',
-    // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Gita automatically collects logs, metrics, and pod/container statuses, providing a clear view of critical events and the overall behavior of your cluster.
-      </>
-    ),
-  },
-  {
-    title: 'Real-Time Alerts',
-    // Svg: "",
-    description: (
-      <>
-        Set up real-time alerts for events and incidents, receiving notifications via email, Slack, or other channels, before issues escalate into critical problems.
-      </>
-    ),
-  },
-];
-
 function Feature({title, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      {/* <div className="text--center">
+      {/* <div className={clsx('col col--4')}>
         <Svg className={styles.featureSvg} role="img" />
       </div> */}
       <div className="text--center padding-horiz--md">
@@ -57,9 +28,33 @@ export default function HomepageFeatures(): JSX.Element {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+          <div className={clsx('col col--4')}>
+            <h3 className="text--center padding-horiz--md"><Translate>Alertas em tempo real</Translate>
+            </h3>
+            <p>
+              <Translate>
+                Configure alertas em tempo real para eventos e incidentes, recebendo notificações via e-mail, slack ou qualquer outro canal, antes que problemas escalem em eventos críticos.
+              </Translate>
+            </p>
+          </div>
+          <div className={clsx('col col--4')}>
+            <h3 className="text--center padding-horiz--md"><Translate>Coleta de dados automática</Translate>
+            </h3>
+            <p>
+              <Translate>
+              GITA coleta automaticamente logs, métricas e status de pods/containers, provendo uma clara visão de eventos críticos e do comportamento padrão do seu cluster.
+              </Translate>
+            </p>
+          </div>
+          <div className={clsx('col col--4')}>
+            <h3 className="text--center padding-horiz--md"><Translate>Monitoramento e resolução de problemas simplificados.</Translate>
+            </h3>
+            <p>
+              <Translate>
+                Com Gita, você obtém uma poderosa solução para gestão de incidentes, coleta de dados e monitoramento de saúde em tempo real, tudo em uma interface intuitiva. Descubra as principais funcionalidades que tornam o GITA indispensável para sua infraestrutura Kubernetes.
+              </Translate>
+            </p>
+          </div>
         </div>
       </div>
     </section>

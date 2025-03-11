@@ -2,105 +2,103 @@
 sidebar_position: 2
 ---
 
-# Gita Usage
+# Introdução
 
-## Guide for Incident Management in Kubernetes
+## Guia para gerenciamento de incidentes no Kubernetes
 
-This guide explains how to use **Gita** for incident management, best practices, and data collection in Kubernetes clusters. The process involves setting up a cluster, running an installation command in the terminal, and managing the collected incident data.
+Esse guia explica como utilizar o **Gita** para gerenciar incidentes, melhores práticas, e coleta de dados em clusters Kubernetes. O processo todo envolve: configurar um cluster, executar comandos de instalação no terminal e gerenciar os dados de incidentes coletados.
 
-## Table of Contents
+## Sumário
 
-- [Gita Usage](#gita-usage)
-  - [Guide for Incident Management in Kubernetes](#guide-for-incident-management-in-kubernetes)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction to Gita](#introduction-to-gita)
-  - [Setup Flow](#setup-flow)
-    - [Add a Cluster](#add-a-cluster)
-    - [Install Gita on the Cluster](#install-gita-on-the-cluster)
-  - [Best Practices](#best-practices)
-  - [Incident Collection](#incident-collection)
-  - [Accessing Collected Data](#accessing-collected-data)
-  - [Conclusion](#conclusion)
-
----
-
-## Introduction to Gita
-
-**Gita** is a tool designed to help with incident management, event tracking, and collecting health and performance data in Kubernetes clusters. It facilitates real-time incident detection, analysis, and resolution, while also promoting best practices in cluster administration.
-
-## Setup Flow
-
-### Add a Cluster
-
-1. **Create a New User**
-   - Go to the [Gita registration page](https://app.gita.cloud/register) to create a new account.
-   - Fill in the required fields such as name, email, and password.
-
-2. **Access the Organization Page**:
-   - Log into the Gita platform and navigate to your organization's page.
-
-3. **Add a New Cluster**:
-   - On the organization page, click the **"Add Cluster"** button.
-   - Enter the required information about the cluster (name, access URL, etc.) and click **"Save"**.
-
-4. **Redirect to the Installation Page**:
-   - After adding the cluster, you will be redirected to the installation page.
-
-### Install Gita on the Cluster
-
-1. **Access the Installation Page**:
-   - On this page, you will see the specific installation command for your Kubernetes cluster.
-
-2. **Run the Installation Command**:
-   - In the terminal of your Kubernetes cluster, run the installation command provided on the installation page.
-
-   - This command will automatically download and configure Gita on your cluster, connecting to it and setting up the necessary permissions to collect incident data.
-
-3. **Verify Installation**:
-   - After executing the command, an **OK** icon will be displayed on the cluster's installation page, indicating that the installation was successful.
+- [Introdução](#introdução)
+  - [Guia para gerenciamento de incidentes no Kubernetes](#guia-para-gerenciamento-de-incidentes-no-kubernetes)
+  - [Sumário](#sumário)
+  - [1. Introdução ao Gita](#1-introdução-ao-gita)
+  - [2. Fluxo de configurações](#2-fluxo-de-configurações)
+    - [2.1. Adicionar um cluster](#21-adicionar-um-cluster)
+    - [2.2. Instalar o Gita em um cluster](#22-instalar-o-gita-em-um-cluster)
+  - [3. Boas práticas](#3-boas-práticas)
+  - [4. Coleta de incidentes](#4-coleta-de-incidentes)
+  - [5. Acessando os dados coletados](#5-acessando-os-dados-coletados)
+  - [6. Conclusão](#6-conclusão)
 
 ---
 
-## Best Practices
+## 1. Introdução ao Gita
 
-- **Resource Management**: Always define resource limits for pods and containers in your cluster. This helps prevent incidents due to excessive CPU or memory consumption.
+Gita é uma ferramenta desenhada para auxiliar a gestão de incidentes, rastreio de eventos e coleta de dados de saúde e performance em clusters Kubernetes. Ele facilita a detecção, análise e resolução de incidentes em tempo real enquanto promove boas práticas na administração do cluster.
 
-- **Regular Updates**: Keep Gita and other components of your Kubernetes cluster up-to-date. Always use the latest version of Gita to ensure you have the most advanced incident collection features.
+&nbsp;
 
-- **Proactive Monitoring**: Use Gita to configure real-time alerts and monitoring. This helps you identify issues before they turn into critical incidents.
+## 2. Fluxo de configurações
 
-- **Post-Incident Analysis**: After resolving incidents, always perform a detailed analysis using Gita's reports to understand the root cause and prevent future problems.
+&nbsp;
+
+### 2.1. Adicionar um cluster
+
+1. Criar um novo usuário:
+   - Acesse a [página de cadastro do Gita](https://app.gita.cloud/register) para criar uma nova conta.
+   - Preencha os campos requeridos, nome, e-mail, senha, etc.
+
+2. Acessar a página da organização:
+   - Conecte-se à plataforma Gita e navegue até a página da sua organização
+
+3. Adicionar um novo cluster:
+   - Na página da organização, acione o botão **"Add Cluster"**.
+   - Insira as informações requeridas sobre o cluster (nome, URL de acesso, etc.) e clique em "Save".
+
+4. Redirecionar para a página de instalação:
+    - Após adicionar o cluster, você será redirecionado para a página de instalação.
+
+&nbsp;
+
+### 2.2. Instalar o Gita em um cluster
+
+1. Acesse a página de instalação:
+   - Nessa página, você verá o comando específico de instalação do Gita específico para o seu cluster
+
+    > Nota: Clusters diferentes terão comandos diferentes. Muita atenção na instalação.
+
+2. Execute o comando de instalação:
+    - No terminal do seu cluster Kubernetes, execute o comando fornecido pela página de instalação.
+    - Esse comando irá automatizar o download e a configuração do Gita no cluster, conectando-o à plataforma e configurando as permissões necessárias para coleta de dados de incidentes.
+
+3. Verifique a instalação:
+    - Após executar os comandos, um ícone de **OK** será exibido na página de instalação do cluster, indicando o sucesso na operação.
 
 ---
 
-## Incident Collection
+## 3. Boas práticas
 
-- **Automatic Log and Metric Collection**: Gita collects detailed logs and metrics from your cluster, including:
-  - Application and system logs.
-  - CPU and memory usage metrics.
-  - Pod and container status.
-  - Historical critical events.
-
-- **Storage and Analysis**: All collected data is stored in a centralized system, allowing for in-depth analysis to detect patterns and potential incidents.
-
-- **Incident Notifications**: When an incident is detected, Gita can send automatic notifications via email, Slack, or other configurable channels.
+- **Gerenciamento de Recursos:** Sempre defina os limits de recursos para pods e contêineres no seu cluster. Isso ajuda a prevenir incidentes causados pelo consumo excessivo de memória e/ou CPU.
+- **Atualizações Regulares:** Mantenha atualizados o Gita e os outros componentes do seu cluster Kubernetes. Sempre use a última versão do Gita para assegurar que você tem as mais avançadas funcionalidades para coleta de dados de incidentes.
+- **Monitoramento Proativo:** Use o gita para configurar alertas e monitoramento em tempo real. Isso ajuda a identificar problemas antes que se tornem incidentes críticos.
+- **Análises pós-incidentes:** Após resolver os incidentes, sempre realize uma análise detalhada usando os relatórios gerados pelo Gita para entender a raiz do problema e prevenir incidentes futuros.
 
 ---
 
-## Accessing Collected Data
+## 4. Coleta de incidentes
 
-1. **Access the Gita Interface**:
-   - To view the collected data and recorded incidents, log into the Gita web interface.
-
-2. **View Incidents**:
-   - On the main page, you will see a dashboard with all recent incidents. Incidents are classified by severity (critical, high, medium, low) and category (application, network, infrastructure).
-
-3. **Data Analysis**:
-   - Click on a specific incident to access detailed logs, metrics, and diagnostics provided by Gita. The system may suggest machine-learning-based solutions to help resolve the issue quickly.
+- **Coleta de logs e métricas automatizadas:** Gita coleta logs e métricas detalhados do seu cluster, includindo:
+  - Logs de de sistema e de aplicações,
+  - Métricas de uso de CPU e memória,
+  - Status de pods e contêineres,
+  - Histórico de eventos críticos.
+- **Análise armazenamento:** Todos os dados coletados são armazenados em um sistema centralizado, permitindo uma análise profunda para detectar padrões e potenciais incidentes.
+- **Notificações de incidentes:** Quando um incidente é detectado, Gita pode enviar automaticamente notificações via email, Slack ou qualquer outro canal de comunicações configurável.
 
 ---
 
-## Conclusion
+## 5. Acessando os dados coletados
 
-Gita simplifies incident management and analysis in Kubernetes clusters, giving you a clear view of the health and performance of your environment. By following best practices for installation, monitoring, and incident collection, you can significantly improve the availability and performance of your cluster.
-x
+1. **Acessando a interface Gita:**
+   - Para visualizar os dados coletados e gravar os incidentes, conecte-se à interface web do Gita.
+2. **Visualização de incidentes:**
+   - Na página principal, você verá o painel contendo todos os incidentes recentes. Incidentes são classificados de acordo com sua severidade (crítica, alta, média ou baixa) e com a categoria (aplicação, rede, infraestrutura)
+3. **Análise de dados:** Clique em um incidente específico para ter acesso aos logs, m´tricas e diagnósticos detalhados gerados pelo Gita. O sistema pode sugerir soluções baseadas em aprendizado de máquina para ajudar a solucionar o problema rapidamente.
+
+---
+
+## 6. Conclusão
+
+O Gita é uma ferramente que simplifica o gerenciamento e análise de incidentes em cluster Kubernetes, dando ao usuário uma visão clara da saúde e da performance do ambiente. Ao seguir as boas práticas indicadas para instalação, monitoramento e coleta, você pode melhorar, significantemente, a disponibilidade e performance do seu cluster.

@@ -22,5 +22,17 @@
   "sidebar.tutorialSidebar.category.Alert": {
     "message": "Alert",
     "description": "The label for category Alert in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.How to": {
+    "message": "How to",
+    "description": "The label for category How to in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.regras": {
+    "message": "regras",
+    "description": "The label for category regras in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Incidents": {
+    "message": "Incidents",
+    "description": "The label for category Incidents in sidebar tutorialSidebar"
   }
 }

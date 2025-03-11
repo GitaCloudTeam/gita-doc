@@ -305,5 +305,26 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "Inicie aqui": {
+    "message": "Get started"
+  },
+  "Alertas em tempo real": {
+    "message": "Real-Time Alerts"
+  },
+  "Configure alertas em tempo real para eventos e incidentes, recebendo notificações via e-mail, slack ou qualquer outro canal, antes que problemas escalem em eventos críticos.": {
+    "message": "Set up real-time alerts for events and incidents, receiving notifications via email, Slack, or other channels, before issues escalate into critical problems."
+  },
+  "Coleta de dados automática": {
+    "message": "Automatic Data Collection"
+  },
+  "GITA coleta automaticamente logs, métricas e status de pods/containers, provendo uma clara visão de eventos críticos e do comportamento padrão do seu cluster.": {
+    "message": "Gita automatically collects logs, metrics, and pod/container statuses, providing a clear view of critical events and the overall behavior of your cluster."
+  },
+  "Monitoramento e resolução de problemas simplificados.": {
+    "message": "Simplify Monitoring and Problem Resolution."
+  },
+  "Com Gita, você obtém uma poderosa solução para gestão de incidentes, coleta de dados e monitoramento de saúde em tempo real, tudo em uma interface intuitiva. Descubra as principais funcionalidades que tornam o GITA indispensável para sua infraestrutura Kubernetes.": {
+    "message": "With Gita, you get a powerful solution for incident management, data collection, and real-time health monitoring, all in an intuitive interface. Discover the key features that make Gita indispensable for your Kubernetes infrastructure."
   }
 }
