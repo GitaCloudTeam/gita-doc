@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Gita',
-  tagline: 'Simplify Monitoring and Troubleshooting your Kubernetes Cluster.',
+  tagline: 'Simplifique monitoramento e troubleshooting no seu cluster Kubernetes.',
   favicon: 'logos/a.svg',
 
   // Set the production url of your site here
