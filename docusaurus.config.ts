@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Gita',
-  tagline: 'Simplify Monitoring and Troubleshooting your Kubernetes Cluster.',
+  tagline: 'Simplifique monitoramento e troubleshooting no seu cluster Kubernetes.',
   favicon: 'logos/a.svg',
 
   // Set the production url of your site here
@@ -25,9 +25,18 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pt-BR',
+    locales: ['en', 'pt-BR'],
+    localeConfigs: {
+      pt: {
+        label: 'Português'
+      },
+      en: {
+        label: 'English'
+      }
+    }
   },
+
 
   presets: [
     [
@@ -89,6 +98,10 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        }
       ],
     },
     footer: {
