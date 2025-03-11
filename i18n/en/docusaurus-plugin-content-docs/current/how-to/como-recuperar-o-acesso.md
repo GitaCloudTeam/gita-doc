@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Como recuperar o acesso (senha)?
 
 1. Na página de login do GITA, clique no link "**Esqueceu sua senha?/Forgot password?**". Conforme indicado abaixo:

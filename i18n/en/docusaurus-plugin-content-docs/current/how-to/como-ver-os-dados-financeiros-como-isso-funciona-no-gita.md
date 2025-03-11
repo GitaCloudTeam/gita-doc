@@ -1,3 +1,6 @@
+---
+sidebar_position: 21
+---
 # Como ver os dados financeiros? Como isso funciona no GITA?
 
 Cada usuário terá 15 dias gratuitos para utilizar o GITA. Após esse período, os dados financeiros podem ser acompanhados diretamente pela interface da plataforma. Para visualizar os dados financeiros: 

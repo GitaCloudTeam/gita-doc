@@ -1,3 +1,6 @@
+---
+sidebar_position: 14
+---
 # Configuração de Proxy do Cliente em um Cluster
 
 Este documento descreve o procedimento para configurar um proxy do cliente em um cluster, seja durante a adição do cluster ou posteriormente, via configurações.

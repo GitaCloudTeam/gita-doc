@@ -1,3 +1,6 @@
+---
+sidebar_position: 8
+---
 # Como criar um novo cluster?
 
 1. No painel principal da organização, o usuário deverá clicar em um dos botões destacados para adicionar um novo cluster à organização:

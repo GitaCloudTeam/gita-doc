@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Gita Usage
@@ -103,4 +103,3 @@ This guide explains how to use **Gita** for incident management, best practices,
 ## Conclusion
 
 Gita simplifies incident management and analysis in Kubernetes clusters, giving you a clear view of the health and performance of your environment. By following best practices for installation, monitoring, and incident collection, you can significantly improve the availability and performance of your cluster.
-x

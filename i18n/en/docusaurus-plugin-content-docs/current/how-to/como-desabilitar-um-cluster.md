@@ -1,3 +1,6 @@
+---
+sidebar_position: 16
+---
 # Como desabilitar um cluster?
 
 1. Acesse a interface do GITA, escolha o cluster que deseja desabilitar.

@@ -1,3 +1,6 @@
+---
+sidebar_position: 9
+---
 # Como Alterar o Nome de um Cluster?
 
 1. Acesse a interface do GITA, escolha o cluster que deseja realizar a alteração.

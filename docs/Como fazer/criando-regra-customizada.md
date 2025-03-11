@@ -1,3 +1,6 @@
+---
+sidebar_position: 22
+---
 # Criando uma Regra Customizada
 
 Este Procedimento descreve como criar uma regra customizada.

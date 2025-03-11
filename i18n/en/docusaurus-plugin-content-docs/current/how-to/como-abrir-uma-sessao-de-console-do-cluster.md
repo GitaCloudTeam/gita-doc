@@ -1,3 +1,6 @@
+---
+sidebar_position: 12
+---
 # Como Abrir uma Sessão de Console do Cluster no Gita
 
 Este Procedimento Operacional Padrão (POP) tem o objetivo de orientar os usuários sobre como acessar o console de um cluster dentro da plataforma Gita, permitindo a manipulação direta do ambiente via linha de comando.

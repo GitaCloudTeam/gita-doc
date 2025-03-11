@@ -1,3 +1,6 @@
+---
+sidebar_position: 20
+---
 # Como pegar insights em eventos?
 
 1. Por meio da barra lateral, o usuário poderá acessar o painel de eventos, conforme o destacado abaixo:

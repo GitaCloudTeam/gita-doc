@@ -1,3 +1,6 @@
+---
+sidebar_position: 17
+---
 # Como Deletar um Cluster?
 
 1. Acesse a interface do GITA, escolha o cluster que deseja deletar.

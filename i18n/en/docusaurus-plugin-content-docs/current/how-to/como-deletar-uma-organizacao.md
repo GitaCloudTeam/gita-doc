@@ -1,3 +1,6 @@
+---
+sidebar_position: 7
+---
 # Como deletar uma organização
 
 1. A partir da [página inicial](https://app.gita.cloud/home), clique em um cluster da organização que deseja alterar

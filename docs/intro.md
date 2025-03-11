@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Introdução
+# Utilização do Gita
 
 ## Guia para gerenciamento de incidentes no Kubernetes
 
@@ -10,7 +10,7 @@ Esse guia explica como utilizar o **Gita** para gerenciar incidentes, melhores p
 
 ## Sumário
 
-- [Introdução](#introdução)
+- [Utilização do Gita](#utilização-do-gita)
   - [Guia para gerenciamento de incidentes no Kubernetes](#guia-para-gerenciamento-de-incidentes-no-kubernetes)
   - [Sumário](#sumário)
   - [1. Introdução ao Gita](#1-introdução-ao-gita)

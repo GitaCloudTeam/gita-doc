@@ -1,3 +1,6 @@
+---
+sidebar_position: 23
+---
 # Como conseguir ajuda?
 
 1. Em qualquer tela da plataforma, o usuário encontrará no canto superior direito o ícone para acessar a ajuda, como destacado na imagem abaixo.

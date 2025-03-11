@@ -1,3 +1,6 @@
+---
+sidebar_position: 19
+---
 # Configuração de Notificações
 
 Este documento descreve como criar um canal de notificação no Gita que permite que o sistema envie alertas automáticos de acordo com as regras definidas para o cluster. Isso garante que eventos críticos, avisos ou informações importantes sejam entregues aos responsáveis no momento certo. A configuração do canal envolve a seleção de eventos, períodos de recebimento e o meio pelo qual a notificação será enviada (ex.: Mattermost, Slack, Webhook, etc.).

@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Como trocar a senha?
 
 1. No painel do GITA, selecione o menu de definições (mostrado na figura abaixo), no canto superior direito e nele a opção "**Editar perfil**"
