@@ -78,7 +78,7 @@ Os seguintes deployments são implantados no cluster cliente:
 
 ## Quais as formas de uso do GITA?
 
-Existem duas possibilidades: Você pode usar no modelo SaaS ou no modelo On Premises. No caso de modelo On Premises, entre em contato para realizar o orçamento. Nosso email é **contato@jackexperts.com.br**.
+Existem duas possibilidades: Você pode usar no modelo SaaS ou no modelo On Premises. No caso de modelo On Premises, entre em contato para realizar o orçamento. Nosso email é [contato@jackexperts.com.br](contato@jackexperts.com.br).
 
 ## Como funcionam os papéis e as permissões?
 
