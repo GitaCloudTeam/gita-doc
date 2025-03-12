@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 ---
 
 # PVC Usage Exceeds Threshold
@@ -9,8 +9,9 @@ Persistent Volume Claims (PVCs) provide storage resources for Kubernetes workloa
 This alert identifies PVCs whose available storage falls below a defined percentage (default: 20%) of their total capacity. Such conditions indicate that storage resources are nearing exhaustion, which could affect application performance or lead to outages.
 
 ## Common Causes
+
 Unmonitored growth in data usage.
 Inefficient storage allocation or lack of scaling strategies.
 Long-running workloads without sufficient resource monitoring.
 
-For more information on managing persistent volumes, visit the Kubernetes documentation on storage.
+For more information on managing persistent volumes, visit the [Kubernetes documentation on storage](https://kubernetes.io/docs/concepts/storage/).

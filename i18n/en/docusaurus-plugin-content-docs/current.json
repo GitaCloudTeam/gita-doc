@@ -3,36 +3,24 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Rules": {
-    "message": "Rules",
-    "description": "The label for category Rules in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Security": {
-    "message": "Security",
-    "description": "The label for category Security in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Incident": {
-    "message": "Incident",
-    "description": "The label for category Incident in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Problem": {
-    "message": "Problem",
-    "description": "The label for category Problem in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Alert": {
-    "message": "Alert",
-    "description": "The label for category Alert in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.How to": {
+  "sidebar.tutorialSidebar.category.Como fazer": {
     "message": "How to",
-    "description": "The label for category How to in sidebar tutorialSidebar"
+    "description": "The label for category Como fazer in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.regras": {
-    "message": "regras",
-    "description": "The label for category regras in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Regras": {
+    "message": "Rules",
+    "description": "The label for category Regras in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Incidents": {
+  "sidebar.tutorialSidebar.category.Segurança": {
+    "message": "Security",
+    "description": "The label for category Segurança in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Incidentes": {
     "message": "Incidents",
-    "description": "The label for category Incidents in sidebar tutorialSidebar"
+    "description": "The label for category Incidentes in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Problemas": {
+    "message": "Problems",
+    "description": "The label for category Problemas in sidebar tutorialSidebar"
   }
 }
