@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 22
 ---
 # SSH exposed
 
@@ -21,4 +21,3 @@ Kubectl tool.
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/tasks/debug/debug-application/get-shell-running-container)
-

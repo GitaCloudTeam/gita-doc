@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 5
 ---
 
 # Auto ServiceAccount token mounted
@@ -23,7 +23,7 @@ container by default, but can be configured to be automatically mounted
 through the manifest option `automountServiceAccountToken`. In order to
 explicitly disable this feature, set the option to `false` as follows:
 
-```
+```yaml
 apiVersion: v1
 kind: ServiceAccount
 metadata:
@@ -34,7 +34,7 @@ automountServiceAccountToken: false
 The same option can be set on Pod manifests, as can be seen on the
 example below:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -48,4 +48,3 @@ spec:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account)
-

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 18
 ---
 # Unauthorized seccomp profile
 
@@ -23,7 +23,7 @@ been written for the process in question, Kubernetes carries a
 built-in filter list which suits well most use cases. To enable it, set
 the `seccompProfile` option to `RuntimeDefault` as the example below:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:

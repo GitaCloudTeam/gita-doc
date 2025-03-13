@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 7
 ---
 
-# Namespace status is not active
+# Namespace status is not active (GITA-INC-007)
 
 Kubernetes enables the organization of workloads and resources by scope
 through namespaces. These ensure all objects created have a unique name

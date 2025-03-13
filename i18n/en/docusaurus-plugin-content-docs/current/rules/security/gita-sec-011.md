@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 11
 ---
 # Containers should not run with allowPrivilegeEscalation
 
@@ -30,7 +30,7 @@ prevent any container process from gaining more privileges than its
 parent process. To enable this, set the `allowPrivilegeEscalation`
 security context option to `false`, as the example below:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -45,4 +45,3 @@ spec:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/concepts/security/pod-security-standards)
-

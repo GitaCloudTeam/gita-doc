@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Memory limits should be set
@@ -16,7 +16,7 @@ manifests.
 To set this limit, add a `resources` field to the manifest as the
 example below:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:

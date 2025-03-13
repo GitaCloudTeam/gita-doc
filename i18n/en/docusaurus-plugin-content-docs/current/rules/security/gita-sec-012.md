@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 12
 ---
 
 # Container should not be privileged
@@ -19,7 +19,7 @@ Privileged mode is disabled by default, however, one can also explicitly
 disable this option through Kubernetes manifests. To do this, set the
 security context option `privileged` to `false` as the example below:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -34,4 +34,3 @@ spec:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/tasks/configure-pod-container/security-context#set-the-security-context-for-a-pod)
-

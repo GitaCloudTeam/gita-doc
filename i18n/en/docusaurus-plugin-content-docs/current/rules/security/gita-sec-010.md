@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 10
 ---
 # Prevent NGINX Ingress annotation snippets which contain LUA code execution. See CVE-2021-25742
 
@@ -22,4 +22,3 @@ version higher than v0.49.1 or v1.0.1 and set the
 
 For more information, visit the bug
 [report](https://github.com/kubernetes/ingress-nginx/issues/7837)
-

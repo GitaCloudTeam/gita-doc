@@ -18,7 +18,7 @@ way to detect and remedy unresponsive containers.
 How to perform a Liveness Probe depends greatly on the program in
 question, but an example is given below:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:

@@ -21,7 +21,7 @@ programs.
 How to perform a Readiness Probe depends greatly on the program in
 question, but an example is given below:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -42,4 +42,3 @@ spec:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes).
-

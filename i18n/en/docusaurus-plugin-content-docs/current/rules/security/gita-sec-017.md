@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 17
 ---
 
 # Container running not as user
@@ -31,7 +31,7 @@ enforce a user and group for the containerized process. To configure
 this, set the `runAsUser` and `runAsGroup` security context options to
 non 0 ids, as the example below:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:

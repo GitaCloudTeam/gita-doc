@@ -9,7 +9,7 @@ Nodes Kubernetes requerem um determinado nível de disponibilidade de armazename
 ## Causas comuns
 
 - Rápido crescimento em arquivos temporários e/ou logs
-- - Estratégias de alocação ineficientes
+- Estratégias de alocação ineficientes
 - Uso de disco ao longo do tempo não monitorado.
 
 Para mais informações sobre gerenciamento do armazenamento nos nodes, visite a [documentação do Kubernetes para armazenamento nos nodes](https://kubernetes.io/docs/concepts/storage/).

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 13
 ---
 # Forbidden proc mount type
 
@@ -20,7 +20,7 @@ To ensure `/proc` paths are not revealed to containers, omit the
 `procMount` option or set it explicitly to `Default`, as the example
 below:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -35,4 +35,3 @@ spec:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/tasks/configure-pod-container/security-context#set-the-security-context-for-a-pod)
-

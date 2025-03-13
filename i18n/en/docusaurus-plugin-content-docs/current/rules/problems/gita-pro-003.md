@@ -20,4 +20,3 @@ briefly describes the software and tooling shipped in the container.
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/concepts/containers/images).
-

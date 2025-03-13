@@ -17,8 +17,8 @@ the highest value to consume more processing power, and vice versa.
 Such value can be specified directly through Kubernetes manifests. To do
 this, add a `resources` field to the manifest as the example below:
 
-```
-apiversion: v1
+```yaml
+apiVersion: v1
 kind: pod
 metadata:
   name: redis
@@ -33,4 +33,3 @@ spec:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource).
-

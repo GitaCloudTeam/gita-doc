@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 6
 ---
 
 # Host namespaces not isolated
@@ -21,7 +21,7 @@ Kubernetes can configure the container runtime in order to prevent usage
 of the host's IPC, Network and PID namespaces. Following is an example
 on how to do this through a manifest:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -41,4 +41,3 @@ runtime.
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/concepts/security/pod-security-standards)
-

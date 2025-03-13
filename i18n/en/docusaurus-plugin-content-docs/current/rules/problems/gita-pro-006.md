@@ -20,7 +20,7 @@ node.
 Such value can be specified directly through Kubernetes manifests. To do
 this, add a `resources` field to the manifest as the example below:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -36,4 +36,3 @@ spec:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource).
-

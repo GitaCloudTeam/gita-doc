@@ -14,7 +14,7 @@ executes.
 A port name can be specified through the `name` sub-field within the
 `ports` section of a manifest as follows:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -30,4 +30,3 @@ spec:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/concepts/services-networking/service/#field-spec-ports)
-
