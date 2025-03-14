@@ -1,5 +1,5 @@
 ---
-sidebar_position: #to_complete_joao
+sidebar_position: 26
 ---
 # Como ver logs de um pod?
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: #to_complete_joao
+sidebar_position: 24
 ---
 # Como comparar dois recursos?
 
