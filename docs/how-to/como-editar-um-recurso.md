@@ -48,11 +48,11 @@ sidebar_position: 25
     > ***Imagem 09: Tela - Visualização de Edição do Recurso e Botão Save***
 
 9. Alternativamente, você pode clicar diretamente nos três pontos ao lado direito do <u>nome do recurso</u> e depois em **Edit Yaml**, sem precisar abrí-lo.
-    > ![image](/images/image168.png)
+    > ![image](/images/image176.png)
     >
     > ***Imagem 10: Seleção de Funcionalidades***
     >
-    > ![image](/images/image169.png)
+    > ![image](/images/image175.png)
     >
     > ***Imagem 11: Opção - Edit Yaml***
 
