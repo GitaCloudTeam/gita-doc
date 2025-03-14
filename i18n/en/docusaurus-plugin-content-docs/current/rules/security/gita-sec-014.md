@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 14
 ---
 # Read only root filesystem
 
@@ -26,7 +26,7 @@ allows this configuration to be changed through the security context
 option `readOnlyRootFilesystem`. Following is an example on how to do
 it:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -41,4 +41,3 @@ spec:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/tasks/configure-pod-container/security-context#set-the-security-context-for-a-pod)
-

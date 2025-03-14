@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 2
 ---
 # Image registry prohibited
 
@@ -7,13 +7,11 @@ Kubernetes enforces strict policies regarding which container registries are all
 
 By default, many Kubernetes clusters are configured with an allowlist of trusted registries. Images from registries not included in this list will be blocked from being pulled by the container runtime.
 
-### Common reasons for prohibited image registries
+## Common reasons for prohibited image registries
 
 1. **Unverified Registry:** The registry is not listed in the organization's trusted sources.
 2. **Outdated Policy:** The registry was removed from the allowlist due to policy updates.
 3. **Potential Threats:** The registry has a history of hosting vulnerable or malicious images.
 
-
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/concepts/containers/images)
-

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 3
 ---
 
 # Application credentials stored in configuration files
@@ -17,7 +17,7 @@ volume specifically for Secret mounts.
 There are multiple types of Kubernetes Secrets, but below is an example
 of the _Opaque_ variant:
 
-```
+```yaml
 apiVersion: v1
 kind: Secret
 metadata:
@@ -29,7 +29,7 @@ data:
 The data field contains the Base64 encoded string of the file
 `credentials.json`, whose contents are:
 
-```
+```yaml
 {
   "login": "example@k8s.io",
   "password": "example"
@@ -42,4 +42,3 @@ persisting the information to Kubernetes.
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/concepts/configuration/secret)
-

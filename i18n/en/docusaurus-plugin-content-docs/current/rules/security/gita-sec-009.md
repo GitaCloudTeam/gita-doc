@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 9
 ---
 # Privileged access to the Windows node
 
@@ -12,7 +12,7 @@ it will have less layers separating it from the host.
 In order to disable this mechanism, set the security context option
 `hostProcess` to `false`, as in the example below:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -28,4 +28,3 @@ spec:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/tasks/configure-pod-container/create-hostprocess-pod)
-

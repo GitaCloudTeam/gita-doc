@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 4
 ---
 
 # Unauthorized AppArmor profile
@@ -25,7 +25,7 @@ In case your nodes do not carry specific profiles for the containerized
 processes running on them, use the value `runtime/default`z for their
 AppArmor profile, as in the example below:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -40,4 +40,3 @@ spec:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/tutorials/security/apparmor)
-

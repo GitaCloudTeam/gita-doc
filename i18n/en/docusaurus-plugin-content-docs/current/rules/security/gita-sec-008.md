@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 8
 ---
 # Not allowed hostPort
 
@@ -27,7 +27,7 @@ range `[30000, 32767]` by default.
 
 Following is an example of a NodePort Service:
 
-```
+```yaml
 apiVersion: v1
 kind: Service
 metadata:
@@ -47,7 +47,7 @@ spec:
 To let Kubernetes know whereto direct the incoming Service traffic, use
 the `app` label in the Pod manifest as follows:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -65,4 +65,3 @@ spec:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/concepts/configuration/overview)
-
