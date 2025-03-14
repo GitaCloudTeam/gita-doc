@@ -326,5 +326,8 @@
   },
   "Com Gita, você obtém uma poderosa solução para gestão de incidentes, coleta de dados e monitoramento de saúde em tempo real, tudo em uma interface intuitiva. Descubra as principais funcionalidades que tornam o GITA indispensável para sua infraestrutura Kubernetes.": {
     "message": "With Gita, you get a powerful solution for incident management, data collection, and real-time health monitoring, all in an intuitive interface. Discover the key features that make Gita indispensable for your Kubernetes infrastructure."
+  },
+  "Simplifique monitoramento e troubleshooting no seu cluster Kubernetes.": {
+    "message": "Simplify Monitoring and Problem Resolution on your Kubernetes cluster."
   }
 }

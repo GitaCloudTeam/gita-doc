@@ -17,7 +17,11 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           GITA
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          <Translate>
+          Simplifique monitoramento e troubleshooting no seu cluster Kubernetes.
+          </Translate>
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
