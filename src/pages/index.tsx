@@ -41,7 +41,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Simplify Monitoring and Problem Resolution on your Kubernetes cluster">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
