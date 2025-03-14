@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 1
 ---
 # Problem capabilities
 
@@ -15,33 +15,33 @@ it creates. Following is a list of them with the privileges they grant:
 - *CHOWN:* change files' UIDs and GIDs;
 - *DAC_OVERRIDE:* bypass Discretionary Access Control (DAC) checks for reading, writing and executing;
 - *FOWNER:*
-	- bypass file ownership checks;
-	- set inode flags;
-	- set Access Control Lists (ACLs) for any file;
-	- ignore Sticky Bits on files;
-	- modify Extended Attributes for any user;
-	- open files without changing their last access time;
-- *FSETID:* 
-	- prevent SUID and SGID bits from being cleared when a file is
-	modified;
-	- set SGID for files with GIDs mismatching the filesystem's and the
-	  process';
+  - bypass file ownership checks;
+  - set inode flags;
+  - set Access Control Lists (ACLs) for any file;
+  - ignore Sticky Bits on files;
+  - modify Extended Attributes for any user;
+  - open files without changing their last access time;
+- *FSETID:*
+  - prevent SUID and SGID bits from being cleared when a file is
+  modified;
+  - set SGID for files with GIDs mismatching the filesystem's and the
+   process';
 - *KILL:* bypass signal sending checks;
 - *MKNOD:* create special files;
 - *NET_BIND_SERVICE:* bind a socket to a port lower than 1024;
 - *SETFCAP:* set capabilities on a file;
-- *SETGID:* 
-	- manipulate process GIDs;
-	- create GIDs when authenticating with Unix domain sockets;
-	- write GID mappings in user namespaces;
+- *SETGID:*
+  - manipulate process GIDs;
+  - create GIDs when authenticating with Unix domain sockets;
+  - write GID mappings in user namespaces;
 - *SETPCAP:* grant or revoke any capability;
-- *SETUID:* 
-	- manipulate process UIDs;
-	- create UIDs when authenticating with Unix domain sockets;
-	- write UID mappings in user namespaces;
-- *SYS_CHROOT:* 
-	- use chroots;
-	- manipulate mount namespaces;
+- *SETUID:*
+  - manipulate process UIDs;
+  - create UIDs when authenticating with Unix domain sockets;
+  - write UID mappings in user namespaces;
+- *SYS_CHROOT:*
+  - use chroots;
+  - manipulate mount namespaces;
 
 Kubernetes has a built-in mechanism for appending capabilities to a
 containerized process, through its security context configuration.

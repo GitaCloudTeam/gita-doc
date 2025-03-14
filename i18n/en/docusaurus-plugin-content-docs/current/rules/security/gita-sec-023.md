@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 23
 ---
 
 # Problem drop capabilities
@@ -18,7 +18,7 @@ In order to ensure all capabilities are removed from a container
 process, use the `ALL` value in the drop list. Following is an example
 manifest demonstrating how to do this:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -36,4 +36,3 @@ spec:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-capabilities-for-a-container)
-

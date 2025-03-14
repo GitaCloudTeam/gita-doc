@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 15
 ---
 # Container running as root
 
@@ -26,7 +26,7 @@ prevent any container process from executing as the root user. To enable
 this, set the `runAsNonRoot` security context option to `true`, as the
 example below:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -41,4 +41,3 @@ spec:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/concepts/security/pod-security-standards)
-

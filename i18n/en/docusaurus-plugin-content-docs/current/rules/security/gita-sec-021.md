@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 21
 ---
 
 # Pod with not allowed SELinux options
@@ -18,4 +18,3 @@ its access control.
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/tasks/configure-pod-container/security-context#assign-selinux-labels-to-a-container)
-

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 24
 ---
 
 # Not allowed volume type used
@@ -30,4 +30,3 @@ listed below:
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/concepts/storage/volumes)
-

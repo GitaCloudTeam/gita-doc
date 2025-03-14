@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 19
 ---
 
 # Unauthorized seccomp profile (Pod)
@@ -23,7 +23,7 @@ it will completely disable Seccomp. In case a specific profile has not
 been written for the process in question, Kubernetes carries a
 built-in filter list which suits well most use cases. To enable it, set
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -44,4 +44,3 @@ configuration file.
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/tutorials/security/seccomp)
-

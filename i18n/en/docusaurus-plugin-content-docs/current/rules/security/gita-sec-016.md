@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 16
 ---
 # Container running as root (Pod)
 
@@ -26,7 +26,7 @@ prevent any container process from executing as the root user. To enable
 this, set the `runAsNonRoot` security context option to `true`, as the
 example below:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:

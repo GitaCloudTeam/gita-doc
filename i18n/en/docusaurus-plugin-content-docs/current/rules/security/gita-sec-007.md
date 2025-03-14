@@ -1,8 +1,8 @@
 ---
-sidebar_position: 26
+sidebar_position: 7
 ---
 
-# HostPath volumep
+# HostPath volume
 
 Kubernetes Volumes are a native solution providing persistent and shared
 storage for containers. In simple terms, Volumes are directories which
@@ -18,4 +18,3 @@ configuration files or sockets.
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/concepts/storage/volumes)
-
