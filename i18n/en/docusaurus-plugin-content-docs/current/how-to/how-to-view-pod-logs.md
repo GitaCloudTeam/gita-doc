@@ -3,7 +3,7 @@ sidebar_position: 26
 ---
 # How to View Pod Logs?
 
-1. Access your Cluster Interface in Gita:
+1. Access your Cluster Interface on Gita:
     > ![image](/images/image160.png)
     >
     > ***Image 01: Panel - Cluster Selection***
@@ -53,4 +53,4 @@ sidebar_position: 26
     >
     > ![image](/images/image171.png)
     >
-    > ***Image 11: Option - View Logs*** 
+    > ***Image 11: Option - View Logs***

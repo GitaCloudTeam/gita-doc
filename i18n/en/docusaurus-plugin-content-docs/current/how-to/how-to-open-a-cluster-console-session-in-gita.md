@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 ---
-# How to Open a Cluster Console Session in Gita?
+# How to Open a Cluster Console Session on Gita?
 
 This Standard Operating Procedure (SOP) aims to guide users on how to access a cluster's console within the Gita platform, allowing direct manipulation of the environment via command line.
 
@@ -54,4 +54,4 @@ The cluster console allows the execution of administrative and monitoring comman
 - **Make sure you have the appropriate permissions** to access the console and execute commands in the cluster.
 - **Check your network connectivity**, as connection issues may prevent the console from opening.
 - **Use commands with caution**, as actions such as deleting pods can impact cluster operation.
-- **For more information about available commands**, consult the official Kubernetes documentation or use `kubectl --help`. 
+- **For more information about available commands**, consult the official Kubernetes documentation or use `kubectl --help`.

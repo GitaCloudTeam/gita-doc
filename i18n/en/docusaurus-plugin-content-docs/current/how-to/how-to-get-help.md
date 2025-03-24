@@ -3,7 +3,7 @@ sidebar_position: 23
 ---
 # How to Get Help?
 
-1. On any platform screen, the user will find the help access icon in the top right corner, as highlighted in the image below.
+1. On any platform screen, the user will find the help icon in the top right corner, as highlighted in the image below.
     > ![image](/images/image019.png)
     >
     > ***Image 01: Screen - Help button***
@@ -18,4 +18,4 @@ sidebar_position: 23
 4. Clicking on the third option "Gita Status", the user will be redirected to the screen shown below, where they can view the operational status of Gita components:
     > ![image](/images/image023.png)
     >
-    > ***Image 04: Screen - Gita Status*** 
+    > ***Image 04: Screen - Gita Status***

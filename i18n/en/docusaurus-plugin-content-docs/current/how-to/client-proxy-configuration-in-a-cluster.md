@@ -26,14 +26,14 @@ This document describes the procedure for configuring a client proxy in a cluste
    > ***Image 04: Dialog box - Proxy information***
    - **Proxy Host** Http/Https (Indicates whether the connection will have encryption or not)
    - **Proxy Host** (Field to define the proxy hostname or IP)
-   - **Proxy Port** (Defines the communication channel with the proxy.)
-   - **Proxy User** (field stores the username needed to authenticate with the proxy.)
+   - **Proxy Port** (Defines the communication channel with the proxy)
+   - **Proxy User** (Field that stores the username needed to authenticate with the proxy)
    - **Proxy Password** (Password corresponding to the username)
 6. Review the inserted settings and click **Next**.
    > ![Revisão da Configuração](/images/image038.png)
    >
    > ***Image 05: Dialog box - proxy information***
-7. If you want to enable logs and remote execution, activate the options:
+7. If you want to enable logs and remote execution, activate the following options:
    - **Enable Logs**: Allows viewing application logs in the cluster.
    - **Enable Exec**: Allows executing commands remotely in the cluster.
 
@@ -74,7 +74,7 @@ This document describes the procedure for configuring a client proxy in a cluste
 
 ---
 
-## Remove Proxy
+## Removing the Proxy
 
 1. Access **Configuration → Settings**.
    > ![Remoção do Proxy](/images/image041.png)
@@ -99,4 +99,4 @@ This document describes the procedure for configuring a client proxy in a cluste
 
 - Make sure the proxy credentials are correct before applying them.
 - If the proxy requires authentication, validate if the authentication method is compatible with your infrastructure.
-- After configuration, test connectivity to ensure the proxy was properly implemented. 
+- After configuration, test connectivity to ensure the proxy was properly implemented.

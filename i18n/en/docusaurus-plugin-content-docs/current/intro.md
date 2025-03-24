@@ -15,8 +15,8 @@ This guide explains how to use **Gita** for incident management, best practices,
   - [Table of Contents](#table-of-contents)
   - [Introduction to Gita](#introduction-to-gita)
   - [Setup Flow](#setup-flow)
-    - [Add a Cluster](#add-a-cluster)
-    - [Install Gita on the Cluster](#install-gita-on-the-cluster)
+    - [Adding a Cluster](#adding-a-cluster)
+    - [Installing Gita in a Cluster](#install-gita-in-a-cluster)
   - [Best Practices](#best-practices)
   - [Incident Collection](#incident-collection)
   - [Accessing Collected Data](#accessing-collected-data)
@@ -30,7 +30,7 @@ This guide explains how to use **Gita** for incident management, best practices,
 
 ## Setup Flow
 
-### Add a Cluster
+### Adding a Cluster
 
 1. **Create a New User**
    - Go to the [Gita registration page](https://app.gita.cloud/register) to create a new account.
@@ -46,15 +46,16 @@ This guide explains how to use **Gita** for incident management, best practices,
 4. **Redirect to the Installation Page**:
    - After adding the cluster, you will be redirected to the installation page.
 
-### Install Gita on the Cluster
+### Installing Gita in a Cluster
 
 1. **Access the Installation Page**:
    - On this page, you will see the specific installation command for your Kubernetes cluster.
+   > Note: Different clusters will have different commands. Be very careful during installation
 
 2. **Run the Installation Command**:
-   - In the terminal of your Kubernetes cluster, run the installation command provided on the installation page.
+   - In your Kubernetes cluster terminal, run the installation command provided by the installation page.
 
-   - This command will automatically download and configure Gita on your cluster, connecting to it and setting up the necessary permissions to collect incident data.
+   - This command will automatically download and configure Gita on your cluster, connecting it to the platform and setting up the necessary permissions to collect incident data.
 
 3. **Verify Installation**:
    - After executing the command, an **OK** icon will be displayed on the cluster's installation page, indicating that the installation was successful.
@@ -79,7 +80,7 @@ This guide explains how to use **Gita** for incident management, best practices,
   - Application and system logs.
   - CPU and memory usage metrics.
   - Pod and container status.
-  - Historical critical events.
+  - Critical events history.
 
 - **Storage and Analysis**: All collected data is stored in a centralized system, allowing for in-depth analysis to detect patterns and potential incidents.
 

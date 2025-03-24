@@ -3,8 +3,8 @@ sidebar_position: 11
 ---
 # How to Invite an External Person to Your Cluster?
 
-1. From the home page (https://app.gita.cloud/home), click on a cluster from the organization you want to change
-   - Alternatively, use the search field in the top left corner, highlighted with the green rectangle in the image below
+1. From the home page (https://app.gita.cloud/home), click on a cluster from the organization you want to modify
+   - Alternatively, use the search field in the top left corner, highlighted by the green rectangle in the image below
    > ![Figure 01](/images/image110.png)
    >
    > ***Image 01: Main panel - Cluster***
@@ -31,4 +31,4 @@ sidebar_position: 11
 7. In the next window, copy the generated link by clicking **Copy Link**. The link is valid for 24 hours
    > ![Figure 07](/images/image116.png)
    >
-   > ***Image 07: Dialog box - Generated link*** 
+   > ***Image 07: Dialog box - Generated link***

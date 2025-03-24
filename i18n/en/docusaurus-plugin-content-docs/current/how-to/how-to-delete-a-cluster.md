@@ -3,7 +3,7 @@ sidebar_position: 17
 ---
 # How to Delete a Cluster?
 
-1. Access the GITA interface, choose the cluster you want to delete.
+1. Access the GITA interface and choose the cluster you want to delete.
     > ![image](/images/image135.png)
     >
     > ***Image 01: Screen - Organization's main panel***
@@ -27,4 +27,4 @@ sidebar_position: 17
     > ![image](/images/image143.png)
     >
     > ***Image 05: Dialog - Confirmation box***
-7. The cluster will be deleted and can no longer be used. 
+7. The cluster will be deleted and can no longer be used.

@@ -3,7 +3,7 @@ sidebar_position: 23
 ---
 # How to Open a Pod Console?
 
-1. Access your Cluster Interface in Gita:
+1. Access your Cluster Interface on Gita:
     > ![image](/images/image160.png)
     >
     > ***Image 01: Panel - Cluster Selection***
@@ -53,4 +53,4 @@ sidebar_position: 23
     >
     > ![image](/images/image169.png)
     >
-    > ***Image 11: Option - Execute Shell*** 
+    > ***Image 11: Option - Execute Shell***
