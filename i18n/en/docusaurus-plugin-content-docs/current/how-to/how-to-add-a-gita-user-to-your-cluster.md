@@ -4,7 +4,7 @@ sidebar_position: 10
 # How to Add a GITA User to Your Cluster?
 
 1. From the [homepage](https://app.gita.cloud/home), click on a cluster from the organization you want to modify
-   - Alternatively, use the search field in the top left corner, highlighted with the green rectangle in the image below
+   - Alternatively, use the search field in the top left corner, highlighted by the green rectangle in the image below
    > ![Figure 01](/images/image117.png)
    >
    > ***Image 01: Main panel - Cluster***
@@ -31,4 +31,4 @@ sidebar_position: 10
 7. Repeat steps 4 to 6 as many times as desired and, when satisfied, click on **Confirm** to save the changes
    > ![Figure 07](/images/image123.png)
    >
-   > ***Image 07: Settings - Highlight 'Confirm'*** 
+   > ***Image 07: Settings - Highlight 'Confirm'***

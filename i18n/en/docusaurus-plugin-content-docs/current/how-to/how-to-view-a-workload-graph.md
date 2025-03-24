@@ -3,7 +3,7 @@ sidebar_position: 27
 ---
 # How to View a Workload Graph?
 
-1. Access your Cluster Interface in Gita:
+1. Access your Cluster Interface on Gita:
     > ![image](/images/image160.png)
     >
     > ***Image 01: Panel - Cluster Selection***
@@ -35,4 +35,4 @@ sidebar_position: 27
 6. Click on the Graph tab and view the graph of the selected resource:
     > ![image](/images/image177.png)
     >
-    > ***Image 07: Tab - Graph*** 
+    > ***Image 07: Tab - Graph***

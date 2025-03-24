@@ -3,7 +3,7 @@ sidebar_position: 16
 ---
 # How to Disable a Cluster?
 
-1. Access the GITA interface, choose the cluster you want to disable.
+1. Access the GITA interface and choose the cluster you want to disable.
     > ![image](/images/image135.png)
     >
     > ***Image 01: Screen - Organization's main panel***
@@ -23,4 +23,4 @@ sidebar_position: 16
     > ![image](/images/image140.png)
     >
     > ***Image 05: Dialog - Disable cluster***
-6. The cluster will be disabled and recorded events will no longer be collected. 
+6. The cluster will be disabled and recorded events will no longer be collected.

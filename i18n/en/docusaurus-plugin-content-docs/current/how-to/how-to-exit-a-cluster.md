@@ -3,7 +3,7 @@ sidebar_position: 15
 ---
 # How to Exit a Cluster?
 
-1. Access the GITA interface, choose the cluster you want to leave.
+1. Access the GITA interface and choose the cluster you want to leave.
     > ![image](/images/image135.png)
     >
     > ***Image 01: Screen - Organization's main panel***
@@ -23,4 +23,4 @@ sidebar_position: 15
     > ![image](/images/image146.png)
     >
     > ***Image 05: Dialog box - Leave cluster***
-6. You will be removed from the cluster and lose access until someone adds you back. 
+6. You will be removed from the cluster and lose access until someone adds you back.

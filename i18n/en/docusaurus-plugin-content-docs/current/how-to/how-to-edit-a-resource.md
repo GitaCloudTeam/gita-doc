@@ -3,7 +3,7 @@ sidebar_position: 25
 ---
 # How to Edit a Resource?
 
-1. Access your Cluster Interface in Gita:
+1. Access your Cluster Interface on Gita:
     > ![image](/images/image160.png)
     >
     > ***Image 01: Panel - Cluster Selection***
@@ -44,7 +44,7 @@ sidebar_position: 25
 
 8. Edit the selected resource and then click the **Save** button to save the changes:
     > ![image](/images/image180.png)
-    > 
+    >
     > ***Image 09: Screen - Resource Edit View and Save Button***
 
 9. Alternatively, you can click directly on the three dots to the right of the <u>resource name</u> and then on **Edit Yaml**, without needing to open it.
@@ -54,4 +54,4 @@ sidebar_position: 25
     >
     > ![image](/images/image175.png)
     >
-    > ***Image 11: Option - Edit Yaml*** 
+    > ***Image 11: Option - Edit Yaml***

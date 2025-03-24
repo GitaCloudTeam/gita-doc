@@ -9,7 +9,7 @@ Rules are policies configured in the cluster to ensure good practices for config
 
 ---
 
-## Create a Custom Rule
+## Creating a Custom Rule
 
 1. **Access the system interface.**
 2. **Choose the organization** where you want to create the rule.
@@ -28,7 +28,7 @@ Rules are policies configured in the cluster to ensure good practices for config
    > ![Escolha de Template](/images/image056.png)
    >
    > ***Image 04: Settings - Highlight 'Rules'***
-6. Choose the customizable **template** (**generic check**) in the search engine or criticality filter to create the rule.
+6. Choose the customizable **template** (**generic check**) in the search engine or the filter to create the rule.
    > ![Escolha de Template](/images/image057.png)
    >
    > ***Image 05: Settings - Rule Templates***
@@ -42,7 +42,7 @@ Rules are policies configured in the cluster to ensure good practices for config
    > ***Image 07 Settings - Highlight 'Change Template':***
 9. Fill in the fields:
    - **Enable**: Defines whether the rule will be active or not.
-   - **Severity**: Represents the criticality level of the rule, which can range from **LOW (Low) to CRITICAL (Critical).**
+   - **Severity**: Represents the severity level of the rule, which can range from **LOW (Low) to CRITICAL (Critical).**
    - **Namespace Allow List**: Defines which namespaces can be affected by this rule.
    - **Exclude Pattern Name**: Allows excluding specific resources from rule application.
    - **Exclude Pattern Namespace**: Allows excluding specific namespaces from rule application.
@@ -64,7 +64,7 @@ Rules are policies configured in the cluster to ensure good practices for config
 
 ---
 
-## Delete Rule
+## Deleting a Rule
 
 1. Access **Configuration → Rules**.
    > ![Acessando Regras](/images/image064.png)
@@ -79,7 +79,7 @@ Rules are policies configured in the cluster to ensure good practices for config
    > ![Excluir Regra](/images/image066.png)
    >
    > ***Image 12: Settings - Highlight 'Delete rule'***
-5. After confirmation "**Delete**" the rule will be **deleted immediately**, without additional confirmation.
+5. After confirmation the rule will be **deleted immediately**, without additional confirmation.
    > ![Confirmação de exclusão](/images/image068.png)
    >
    > ***Image 13: Dialog box - Delete rule***
@@ -92,4 +92,4 @@ Rules are policies configured in the cluster to ensure good practices for config
 - **Define severity** correctly to avoid irrelevant alerts.
 - **Review rules before saving** to ensure all settings are correct.
 - **Use appropriate templates** to facilitate configuration.
-- **Be careful when deleting rules**, as the action is irreversible. 
+- **Be careful when deleting rules**, as the action is irreversible.

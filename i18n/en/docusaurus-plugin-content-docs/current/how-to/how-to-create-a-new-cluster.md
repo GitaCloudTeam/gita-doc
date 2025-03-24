@@ -7,7 +7,7 @@ sidebar_position: 8
     > ![image](/images/image015.png)
     >
     > ***Image 01: Screen - Organization's main panel***
-2. Then, a dialog box will open and the user should define the name that the cluster will receive, clicking "**Next**" to proceed to the next step
+2. Then, a dialog box will open and the user should define the name that the cluster will have, clicking "**Next**" to proceed to the next step
     > ![image](/images/image016.png)
     >
     > ***Image 02: Screen - Organization's main panel***
@@ -19,4 +19,4 @@ sidebar_position: 8
     > ![image](/images/image018.png)
     >
     > ***Image 04: Screen - Gita Installation***
-5. After executing the commands, the platform should display "**Connected**" status as "**Online**", indicating that the cluster is communicating with Gita. 
+5. After executing the commands, the platform should display "**Connected**" status as "**Online**", indicating that the cluster is communicating with Gita.

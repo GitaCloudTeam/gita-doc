@@ -21,7 +21,7 @@ This Procedure shows the import of a YAML (Yet Another Markup Language) which is
 
 ## 2. Starting the Import
 
-1. **Locate the import icon** (represented by an **arrow entering a box**) at the top of the interface.
+1. **Locate the import icon** (represented by an **arrow pointing out of a box**) at the top of the interface.
 2. **Click on the icon** to start the import process.
 
    > ![Starting the Import](/images/image092.png)
@@ -47,7 +47,7 @@ If you choose an already created file, when selecting it, the code will be loade
 
 ## 4. Review and Confirmation
 
-1. **Verify that all information is correct.**
+1. **Check if all information is correct.**
 2. **If necessary, edit directly in the platform's editor.**
    > ![YAML Review](/images/image094.png)
    >
@@ -68,4 +68,4 @@ If you choose an already created file, when selecting it, the code will be loade
 
 - **Make sure the YAML file is properly formatted** before importing.
 - **If the import fails, check the error messages** and adjust the code as needed.
-- **The interface allows edits before import**, ensuring that the configurations are correct. 
+- **The interface allows edits before import**, ensuring that the configurations are correct.
