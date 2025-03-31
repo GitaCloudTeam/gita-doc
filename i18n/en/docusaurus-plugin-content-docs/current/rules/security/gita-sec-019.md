@@ -2,7 +2,7 @@
 sidebar_position: 19
 ---
 
-# Unauthorized seccomp profile (Pod)
+# Unauthorized seccomp profile (Pod) (GITA-SEC-019)
 
 Seccomp is a Linux kernel feature developed to minimize kernel exposure
 to userland processes in such a way as to constrain them to four basic
@@ -22,6 +22,7 @@ the host's kernel supports it. But when using the `Unconfined` option,
 it will completely disable Seccomp. In case a specific profile has not
 been written for the process in question, Kubernetes carries a
 built-in filter list which suits well most use cases. To enable it, set
+the `seccompProfile` option to `RuntimeDefault` as the example below:
 
 ```yaml
 apiVersion: v1

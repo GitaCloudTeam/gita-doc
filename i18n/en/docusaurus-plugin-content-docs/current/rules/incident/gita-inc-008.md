@@ -2,5 +2,5 @@
 sidebar_position: 8
 ---
 
-# Node with less than twenty percent available memory (GITA-INC-008)
+# Node with less than 20% available memory (GITA-INC-008)
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 22
 ---
-# SSH exposed
+# SSH exposed (GITA-SEC-022)
 
 The Secure Shell (SSH) is a protocol for secure communication across a
 network, leveraging asymmetric encryption to prevent outsiders from
@@ -13,8 +13,8 @@ used as an alternative when the former is blocked.
 
 Exposing a SSH connection to a container in order to get a remote shell
 will bypass the Kubelet authentication, as Kubernetes has no way to
-differentiate between SSH and other network traffic. Thus making futile
-Kubernetes' access control mechanisms.
+differentiate between SSH and other network traffic. Thus rendering
+Kubernetes' access control mechanisms useless.
 
 If the goal is to get a remote shell to a container, consider using the
 Kubectl tool.

@@ -2,7 +2,7 @@
 sidebar_position: 25
 ---
 
-# Insecure Sysctls
+# Insecure sysctls (GITA-SEC-025)
 
 Sysctl is an utility created to configure the Linux kernel at runtime,
 overriding values passed to the kernel as parameters through its

@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# CPU requests should be set
+# CPU requests should be set (GITA-PRO-002)
 
 The CPU processing capacity of a computer is one of its limited
 resources. On clustered Linux systems, complex processes in the form
@@ -10,8 +10,7 @@ of containers are constantly competing for such resource. Furthermore,
 given that these processes may perform tasks of distinctive importance,
 there exists a necessity of prioritizing their execution.
 
-This is what CPU requests are used for. By placing weights on the
-running containers, the process scheduler will allow containers with
+This is what CPU requests are used for. By setting weights on running containers, the process scheduler will allow containers with
 the highest value to consume more processing power, and vice versa.
 
 Such value can be specified directly through Kubernetes manifests. To do

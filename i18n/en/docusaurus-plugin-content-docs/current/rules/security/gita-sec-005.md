@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Auto ServiceAccount token mounted
+# Auto ServiceAccount token mounted (GITA-SEC-005)
 
 Service Accounts are a Kubernetes native solution for controlling
 authentication and when used in conjunction with Roles also enable

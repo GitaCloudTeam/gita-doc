@@ -10,4 +10,4 @@ Disk pressure is typically caused by resource mismanagement, excessive logs, or 
 
 To identify and resolve disk pressure, monitor the node's status and ensure sufficient disk space is available.
 
-For more information, visit the Kubernetes documentation.
+For more information, visit the [Kubernetes documentation](https://kubernetes.io/docs/home/).

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 ---
-# Privileged access to the Windows node
+# Privileged access to the Windows node (GITA-SEC-009)
 
 On nodes running Microsoft Windows, Kubernetes provides a mechanism for
 running containerized processes with direct access to the host's

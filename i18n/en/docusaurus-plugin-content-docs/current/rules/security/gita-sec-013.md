@@ -1,7 +1,7 @@
 ---
 sidebar_position: 13
 ---
-# Forbidden proc mount type
+# Forbidden proc mount type (GITA-SEC-013)
 
 Linux containers are primarily made possible by two features. Cgroups, a
 feature whose purpose is to control process resource usage such as CPU

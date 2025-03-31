@@ -12,7 +12,7 @@ programs start to misbehave but have not yet crashed, as through
 deadlocks and other issues which make the program unresponsive.
 
 If one of the Health Checks fails, the container is considered
-unhealthy, and whenever a Pod has at least one unhealthy container, its
+`unhealthy`, and whenever a Pod has at least one `unhealthy` container, its
 status will be set to unhealthy as well.
 
 For more information, visit the Kubernetes

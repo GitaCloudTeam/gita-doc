@@ -2,7 +2,7 @@
 sidebar_position: 17
 ---
 
-# Container running not as user
+# Container running not as user (GITA-SEC-017)
 
 Linux containers are primarily made possible by two features. Cgroups, a
 feature whose purpose is to control process resource usage such as CPU
@@ -14,8 +14,8 @@ method.
 This means that side effects of processes running within containers
 shouldn't affect outside processes. However, given how far reaching
 within the kernel are the intricacies of Cgroups, some subsystems have
-not yet been entirely adapted to it, or may have corner cases where a
-containerized process can end up bypassing its kernel namespace.
+not yet been entirely adapted to it, or it may happen that a
+containerized process can end up bypassing the kernel namespace.
 
 When using Docker as container runtime and not specifying a user for the
 containerized process, it will execute as root by default. If the group
@@ -28,8 +28,7 @@ of the user the process runs as.
 
 In order to mitigate such threat, Kubernetes provides an option to
 enforce a user and group for the containerized process. To configure
-this, set the `runAsUser` and `runAsGroup` security context options to
-non 0 ids, as the example below:
+this, set the security context options `runAsUser` and `runAsGroup` with ids other than 0, as shown in the example below:
 
 ```yaml
 apiVersion: v1

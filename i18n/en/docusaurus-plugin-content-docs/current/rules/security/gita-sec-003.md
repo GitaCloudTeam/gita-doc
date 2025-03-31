@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Application credentials stored in configuration files
+# Application credentials stored in configuration files (GITA-SEC-003)
 
 Setting credentials on arbitrarily accessible locations such as
 configuration files may expose sensitive data, or at worst, completely
@@ -26,7 +26,7 @@ data:
   credentials.json: ewogICJsb2dpbiI6ICJleGFtcGxlQGs4cy5pbyIsCiAgInBhc3N3b3JkIjogImV4YW1wbGUiCn0K
 ```
 
-The data field contains the Base64 encoded string of the file
+The `data` field contains the Base64 encoded string of the file
 `credentials.json`, whose contents are:
 
 ```yaml
@@ -38,7 +38,7 @@ The data field contains the Base64 encoded string of the file
 
 It's important to notice that Kubernetes Secrets are stored unencrypted
 on the API server storage provider, so ensure to encrypt it before
-persisting the information to Kubernetes.
+persisting the information in a Secret.
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/concepts/configuration/secret)

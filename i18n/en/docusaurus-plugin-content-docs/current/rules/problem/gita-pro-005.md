@@ -2,10 +2,10 @@
 sidebar_position: 5
 ---
 
-# Memory limits should be set
+# Memory limits should be set (GITA-PRO-005)
 
 The memory of a computer is one of its limited resources and ought to be
-used consciously. This is even more relevant in terms of containers, as
+used consciously. This is even more relevant when it comes to containers, as
 the host memory will be shared among multiple complex processes.
 
 In order to avoid a particular container from using too much memory from

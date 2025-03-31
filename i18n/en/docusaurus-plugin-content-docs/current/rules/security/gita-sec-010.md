@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 ---
-# Prevent NGINX Ingress annotation snippets which contain LUA code execution. See CVE-2021-25742
+# Prevent NGINX Ingress annotation snippets which contain LUA code execution. See CVE-2021-25742 (GITA-SEC-010)
 
 Ingress is a Kubernetes native solution for routing incoming traffic to
 the cluster to specific services according to a set of defined routing
@@ -17,7 +17,7 @@ can create or update Ingress objects is also able to use Lua scripts
 through annotations in order to obtain all Secrets in the cluster.
 
 To mitigate this, remove any Lua script annotations, upgrade to a
-version higher than v0.49.1 or v1.0.1 and set the
+version higher than `v0.49.1` or `v1.0.1` and set the
 `allow-snippet-annotations` Nginx configuration option to `false`.
 
 For more information, visit the bug

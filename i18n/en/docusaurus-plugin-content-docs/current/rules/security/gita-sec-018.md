@@ -1,7 +1,7 @@
 ---
 sidebar_position: 18
 ---
-# Unauthorized seccomp profile
+# Unauthorized seccomp profile (GITA-SEC-018)
 
 Seccomp is a Linux kernel feature developed to minimize kernel exposure
 to userland processes in such a way as to constrain them to four basic

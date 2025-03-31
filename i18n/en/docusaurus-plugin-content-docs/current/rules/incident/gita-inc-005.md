@@ -14,7 +14,7 @@ _NotReady_, whereby new Pods will not be accepted in the node, and
 current Pods may be terminated in an attempt to mitigate the issue.
 Network issues can also cause a node to become _NotReady_, be it from
 lack of connectivity or a misbehaving _kube-proxy_, since Kubernetes
-treats unreachable nodes as unhealthy.
+treats unreachable nodes as `unhealthy`.
 
 For more information, visit the Kubernetes
 [documentation](https://kubernetes.io/docs/concepts/architecture/nodes)

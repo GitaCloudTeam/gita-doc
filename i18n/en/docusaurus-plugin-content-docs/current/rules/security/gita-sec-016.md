@@ -1,7 +1,7 @@
 ---
 sidebar_position: 16
 ---
-# Container running as root (Pod)
+# Container running as root (Pod) (GITA-SEC-016)
 
 Linux containers are primarily made possible by two features. Cgroups, a
 feature whose purpose is to control process resource usage such as CPU
@@ -13,8 +13,8 @@ method.
 This means that side effects of processes running within containers
 shouldn't affect outside processes. However, given how far reaching
 within the kernel are the intricacies of Cgroups, some subsystems have
-not yet been entirely adapted to it, or may have corner cases where a
-containerized process can end up bypassing its kernel namespace.
+not yet been entirely adapted to it, or it may happen that a
+containerized process can end up bypassing the kernel namespace.
 
 This creates a serious attack surface for Cgroups, given a container
 process running as root may be able to act as root on the host if a

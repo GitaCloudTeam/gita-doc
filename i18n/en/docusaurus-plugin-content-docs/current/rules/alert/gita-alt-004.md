@@ -10,8 +10,8 @@ This alert identifies PVCs whose available storage falls below a defined percent
 
 ## Common Causes
 
-Unmonitored growth in data usage.
-Inefficient storage allocation or lack of scaling strategies.
-Long-running workloads without sufficient resource monitoring.
+- Unmonitored growth in data usage.
+- Inefficient storage allocation or lack of monitoring strategies.
+- Long-running workloads without sufficient resource monitoring.
 
 For more information on managing persistent volumes, visit the [Kubernetes documentation on storage](https://kubernetes.io/docs/concepts/storage/).

@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Image Tag should be fixed. not latest or blank
+# Image Tag should be fixed. Without using `latest` or leaving it blank (GITA-PRO-003)
 
 Container images are packaged programs alongside the basic structural
 requirements for running them, such as a filesystem hierarchy, a package

@@ -2,7 +2,7 @@
 sidebar_position: 21
 ---
 
-# Pod with not allowed SELinux options
+# Pod with not allowed SELinux options (GITA-SEC-021)
 
 SELinux is a kernel module providing Mandatory Access Control (MAC)
 mechanisms, thus enabling administrators to control how a process access
@@ -12,7 +12,7 @@ themselves, have a identifying label. This allows the creation of
 policies either enabling or disabling access to any labelled resource,
 which will be enforced once passed to SELinux.
 
-Labels are composed of three parts, a type, a user and a role. However,
+Labels are composed of three parts, a type, a user and a rucle. However,
 if any of those isn't set properly, SELinux may not be able to enforce
 its access control.
 

@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Memory requests should be set
+# Memory requests should be set (GITA-PRO-006)
 
 The memory of a computer is one of its limited resources. On clustered
 Linux systems, complex processes in the form of containers are
@@ -14,7 +14,7 @@ This is what memory requests are used for. By specifying how much memory
 a container may need, the process scheduler can ensure the container
 only starts if that exact quantity is available. In a similar manner,
 the scheduler also uses the request value to select a node where the
-container will execute, matching against the available memory of each
+container will execute, comparing it with the available memory of each
 node.
 
 Such value can be specified directly through Kubernetes manifests. To do

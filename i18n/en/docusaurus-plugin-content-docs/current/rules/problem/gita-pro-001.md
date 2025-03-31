@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
 ---
-# CPU limits should be set
+# CPU limits should be set (GITA-PRO-001)
 
 The CPU processing capacity of a computer is one of its limited
 resources and ought to be used consciously. This is even more relevant
-in terms of containers, as the host CPU will be shared among multiple
+when it comes to containers, as the host CPU will be shared among multiple
 complex processes.
 
 In order to avoid a particular container from using too much processing

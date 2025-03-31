@@ -2,12 +2,12 @@
 sidebar_position: 4
 ---
 
-# Liveness probe must be present
+# Liveness probe must be present (GITA-PRO-004)
 
 Kubernetes has a built in mechanism to detect whether a container is
 behaving accordingly, called Liveness Probe. This mechanism is
 implemented in the Kubelet component to detect when programs start to
-misbehave but have not yet crashed, as through deadlocks and other
+misbehave but have not yet crashed, as occurs in deadlocks and other
 issues which make the program unresponsive.
 
 When the Kubelet detects a container in such a state, it restarts the
