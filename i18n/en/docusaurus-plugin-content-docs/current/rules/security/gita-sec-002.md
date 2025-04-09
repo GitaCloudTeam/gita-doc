@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# Image registry prohibited
+# Image _Registry_ prohibited
 
 Kubernetes enforces strict policies regarding which container registries are allowed in the cluster. Using images from untrusted or unverified registries can pose significant security risks, such as introducing vulnerabilities, malicious code, or unmaintained software into the environment.
 

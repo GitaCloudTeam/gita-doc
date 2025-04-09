@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Problem capabilities
+# Problem capabilities (GITA-SEC-001)
 
 Capabilities are a Linux specific set of permissions traditionally
 reserved for the root user, which have been stratified into separate
@@ -52,3 +52,21 @@ privilege escalation.
 Unless the use case of your program strictly requires them, it's
 recommended to drop all these capabilities. This can be done through the
 security context as well, what is displayed in the manifest below:
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cowsay
+spec:
+  restartPolicy: Never
+  containers:
+    - name: cowsay
+      image: rancher/cowsay:latest
+      args: ["Security First!!!"]
+      securityContext:
+        capabilities:
+          drop: ["ALL"]
+```
+
+For more information, visit the Kubernetes [documentation](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-capabilities-for-a-container)

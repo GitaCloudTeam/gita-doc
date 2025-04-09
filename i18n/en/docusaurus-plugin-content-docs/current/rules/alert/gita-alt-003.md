@@ -10,4 +10,4 @@ PID exhaustion is often caused by high process creation rates or unoptimized app
 
 To prevent PID pressure, configure PID limits appropriately and ensure workloads use resources efficiently.
 
-For more information, visit the Kubernetes documentation.
+For more information, visit the [Kubernetes documentation](https://kubernetes.io/docs/home/).

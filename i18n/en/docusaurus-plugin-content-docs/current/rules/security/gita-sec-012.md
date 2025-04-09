@@ -2,7 +2,7 @@
 sidebar_position: 12
 ---
 
-# Container should not be privileged
+# Container should not be privileged (GITA-SEC-012)
 
 Linux containers are primarily made possible by two features. Cgroups, a
 feature whose purpose is to control process resource usage such as CPU

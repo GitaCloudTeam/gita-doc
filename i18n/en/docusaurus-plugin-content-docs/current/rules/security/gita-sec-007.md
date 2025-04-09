@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# HostPath volume
+# HostPath volume (GITA-SEC-007)
 
 Kubernetes Volumes are a native solution providing persistent and shared
 storage for containers. In simple terms, Volumes are directories which

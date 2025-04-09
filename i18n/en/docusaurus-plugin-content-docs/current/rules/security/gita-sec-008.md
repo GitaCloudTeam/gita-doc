@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 ---
-# Not allowed hostPort
+# Not allowed hostPort (GITA-SEC-008)
 
 Linux containers are primarily made possible by two features. Cgroups, a
 feature whose purpose is to control process resource usage such as CPU
@@ -44,7 +44,7 @@ spec:
 
 ```
 
-To let Kubernetes know whereto direct the incoming Service traffic, use
+To let Kubernetes know where to direct the incoming Service traffic, use
 the `app` label in the Pod manifest as follows:
 
 ```yaml

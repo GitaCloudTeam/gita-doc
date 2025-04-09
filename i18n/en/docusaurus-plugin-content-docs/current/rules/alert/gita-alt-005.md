@@ -8,8 +8,8 @@ Kubernetes nodes require sufficient storage availability to ensure smooth operat
 
 ## Common Causes
 
-Rapid growth in temporary or log files.
-Inefficient storage allocation strategies.
-Unmonitored disk usage over time.
+- Rapid growth in temporary files and/or logs.
+- Inefficient storage allocation strategies.
+- Unmonitored disk usage over time.
 
-For more information on managing node storage, visit the Kubernetes documentation on node storage.
+For more information on managing node storage, visit the [Kubernetes documentation on node storage](https://kubernetes.io/docs/concepts/storage/).

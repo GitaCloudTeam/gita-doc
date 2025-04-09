@@ -2,16 +2,16 @@
 sidebar_position: 24
 ---
 
-# Not allowed volume type used
+# Not allowed Volume type used (GITA-SEC-024)
 
 Kubernetes Volumes are a native solution providing persistent and shared
 storage for containers. In simple terms, Volumes are directories which
-are known by Kubernetes and can be plugged into containers for reading,
+are known by Kubernetes and can be connected to containers for reading,
 writing or executing. There are many types of Volumes, each one of them
 providing the directory in question in their own way, but all are usable
 through the same mechanism provided by Volumes.
 
-However, some volumes depend on network connectivity or other fragile
+However, some Volumes depend on network connectivity or other fragile
 medium to be provisioned to Kubernetes, what could potentially expose
 persisted information in case the traffic isn't properly secured or the
 medium in question fails.

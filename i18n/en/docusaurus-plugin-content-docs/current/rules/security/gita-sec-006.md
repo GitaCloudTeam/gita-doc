@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Host namespaces not isolated
+# Host namespaces not isolated (GITA-SEC-006)
 
 Linux containers are primarily made possible by two features. Cgroups, a
 feature whose purpose is to control process resource usage such as CPU
