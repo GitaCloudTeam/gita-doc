@@ -57,7 +57,7 @@ O permissionamento por CIDR (Classless Inter-Domain Routing) é uma forma de con
     >
     > ***Imagem 10: Visualização - CIDR Adicionado***
 
-10. O usuário que tentar entrar com um endereço IP dentro da faixa do CIDR adicionado, vai ter o IP bloqueado e não conseguirá acessar o Cluster em questão:
+10. O usuário que tentar entrar com um endereço IP fora da faixa do CIDR adicionado, vai ter o IP bloqueado e não conseguirá acessar o Cluster em questão:
     > ![image](/images/image197.png)
     >
     > ***Imagem 11: Home - Visualização IP bloqueado***
