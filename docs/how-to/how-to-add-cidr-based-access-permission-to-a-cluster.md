@@ -1,5 +1,5 @@
 ---
-sidebar_position: #to_complete_joao
+sidebar_position: 28
 ---
 # Como adicionar permissionamento de acesso por CIDR a um Cluster no GITA?
 
