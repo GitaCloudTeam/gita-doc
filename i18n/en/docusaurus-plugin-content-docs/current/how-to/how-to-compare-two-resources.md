@@ -1,5 +1,5 @@
 ---
-sidebar_position: 24
+sidebar_position: 26
 ---
 # How to Compare Two Resources?
 

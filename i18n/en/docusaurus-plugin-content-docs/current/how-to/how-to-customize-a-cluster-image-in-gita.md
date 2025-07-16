@@ -1,5 +1,5 @@
 ---
-sidebar_position: 30
+sidebar_position: 31
 ---
 # How to customize a cluster image in GITA?
 

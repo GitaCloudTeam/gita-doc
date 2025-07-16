@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 11
 ---
 # Como incluir um usuário do GITA no seu cluster
 
