@@ -1,5 +1,5 @@
 ---
-sidebar_position: 26
+sidebar_position: 29
 ---
 # How to View Pod Logs?
 

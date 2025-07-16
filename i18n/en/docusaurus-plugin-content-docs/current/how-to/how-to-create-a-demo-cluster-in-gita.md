@@ -1,5 +1,5 @@
 ---
-sidebar_position: 29
+sidebar_position: 1
 ---
 # How to create a Demo Cluster in GITA?
 

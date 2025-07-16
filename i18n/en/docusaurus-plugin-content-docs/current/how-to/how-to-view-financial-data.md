@@ -1,5 +1,5 @@
 ---
-sidebar_position: 21
+sidebar_position: 22
 ---
 # How to View Financial Data? How does this Work on GITA?
 

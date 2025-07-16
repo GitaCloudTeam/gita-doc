@@ -1,7 +1,7 @@
 ---
-sidebar_position: 32
+sidebar_position: 33
 ---
-# Como monitorar o uso de recursos dos pods de um cluster?
+# Como acompanhar o uso de recursos dos pods de um cluster?
 
 1. Acesse a Interface do seu Cluster no Gita:
     > ![image](/images/image206.png)
@@ -22,7 +22,7 @@ sidebar_position: 32
     >
     > ***Imagem 04: Seção Top Pods***
 
-4. Na aba Top Pods é possível visualizar o uso de memória e CPU dos pods do seu cluster com base em um "treemap" (mapa de árvore). Basta clicar na aba de **Memory** ou **CPU** dentro da seção Top Pods:
+4. Na aba Top Pods é possível acompanhar o uso de memória e CPU dos pods do seu cluster com base em um "treemap" (mapa de árvore). Basta clicar na aba de **Memory** ou **CPU** dentro da seção Top Pods:
     > **O que é um treemap?**  
     > Um treemap é um tipo de visualização gráfica que utiliza retângulos proporcionais para representar dados hierárquicos ou quantitativos. No contexto do Gita, cada retângulo representa um pod, e o tamanho de cada retângulo indica o consumo de memória ou CPU daquele pod em relação aos demais. Assim, é possível identificar rapidamente quais pods estão consumindo mais recursos no cluster.
     >

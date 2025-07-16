@@ -1,5 +1,5 @@
 ---
-sidebar_position: 28
+sidebar_position: 30
 ---
 # Como adicionar permissionamento de acesso por CIDR a um Cluster no GITA?
 
