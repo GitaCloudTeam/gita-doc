@@ -38,6 +38,6 @@ A autenticação de dois fatores (2FA) para a organização é um recurso de seg
     > ***Imagem 06: Visualização - Enable Email 2FA Habilitado***
 
 6. Após o último passo, será enviada uma mensagem para o respectivo email cadastrado como o usuário do Gita e então a autenticação de dois fatores para a sua organização terá sido concluída. É importante lembrar que para que possa continuar acessando a organização, o usuário também deve habilitar o 2FA na sua conta pessoal se ainda não estiver habilitado.
-    > ![image](/images/image247.png)
+    > ![image](/images/image250.png)
     >
     > ***Imagem 07: Visualização - Exemplo de Conclusão***

@@ -38,6 +38,6 @@ Two-factor authentication (2FA) for the organization is a security feature that 
     > ***Image 06: View - Enable Email 2FA Enabled***
 
 6. After the last step, a message will be sent to the respective email registered as the Gita user, and then two-factor authentication for your organization will be completed. It is important to remember that to continue accessing the organization, the user must also enable 2FA on their personal account if it is not already enabled.
-    > ![image](/images/image247.png)
+    > ![image](/images/image250.png)
     >
     > ***Image 07: View - Completion Example***
